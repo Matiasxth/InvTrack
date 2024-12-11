@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvTrack</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>InvTrack: Sistema de Inventarios</h1>
+    <div id="inventory"></div>
+    <form id="add-item-form">
+        <h2>Agregar Ítem</h2>
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="number" id="cantidad" placeholder="Cantidad" required>
+        <input type="text" id="categoria" placeholder="Categoría">
+        <input type="text" id="ubicacion" placeholder="Ubicación">
+        <textarea id="observaciones" placeholder="Observaciones"></textarea>
+        <button type="submit">Agregar</button>
+    </form>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
