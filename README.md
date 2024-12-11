@@ -1,6 +1,6 @@
 # InvTrack
 sistema local de gestión de inventarios diseñado para pequeños proyectos y equipos que requieren un seguimiento sencillo y eficiente de sus recursos. Este sistema utiliza SQLite para el almacenamiento local de datos
-# InvTrack
+# Introduccion
 
 **InvTrack** es un sistema local de gestión de inventarios desarrollado en Python con soporte para bases de datos SQLite. Es ideal para registrar, visualizar y administrar ítems como materiales, herramientas y recursos. Toda la información se almacena de manera local, garantizando su seguridad y portabilidad.
 
